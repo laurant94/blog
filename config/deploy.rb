@@ -2,7 +2,7 @@
 lock "3.16.0"
 
 set :application, "blog"
-set :repo_url, "https://github.com/laurant94/blog.git"
+set :repo_url, "https://github.com/laurant94/blog"
 
 set :branch, ENV['BRANCH'] || 'main'
 set :deploy_to, '/var/www/blog'

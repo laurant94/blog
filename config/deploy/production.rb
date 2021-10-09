@@ -61,5 +61,5 @@
 #   }
 
 
-server '54.165.191.122', user: 'ec2-user', roles: %w{ec2-user db web}
-set :ssh_options, keys: '/home/wolf/Téléchargements/aws keys/blog-key.pem'
+server '54.165.191.122', user: 'app', roles: %w{app db web}
+set :ssh_options, keys: '/home/wolf/.ssh/id_rsa'
